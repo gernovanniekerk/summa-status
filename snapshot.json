@@ -1,0 +1,55 @@
+{
+  "generatedAt": "2026-07-14",
+  "apps": [
+    {
+      "slug": "easystreak",
+      "name": "EasyStreak",
+      "cat": "Habit tracker",
+      "stage": 8,
+      "status": "needs-you",
+      "note": "Store prep"
+    },
+    {
+      "slug": "renewwise",
+      "name": "RenewWise",
+      "cat": "Renewal tracker",
+      "stage": 7,
+      "status": "needs-you",
+      "note": "TestFlight"
+    },
+    {
+      "slug": "quotient",
+      "name": "Quotient",
+      "cat": "Financial calculator",
+      "stage": 5,
+      "status": "on-track",
+      "note": "Final build",
+      "interventions": 3
+    },
+    {
+      "slug": "countup",
+      "name": "CountUp",
+      "cat": "Countdowns",
+      "stage": 2,
+      "status": "on-track",
+      "note": "Planning"
+    },
+    {
+      "slug": "garagelog",
+      "name": "GarageLog",
+      "cat": "Vehicle log",
+      "stage": 1,
+      "status": "on-track",
+      "note": "Research"
+    },
+    {
+      "slug": "summa-console",
+      "name": "Summa Console",
+      "cat": "Factory dashboard",
+      "stage": 7,
+      "status": "needs-you",
+      "note": "TestFlight",
+      "interventions": 2
+    }
+  ]
+}
