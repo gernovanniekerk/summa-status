@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14",
+  "generatedAt": "2026-07-15",
   "apps": [
     {
       "slug": "easystreak",
@@ -7,24 +7,27 @@
       "cat": "Habit tracker",
       "stage": 8,
       "status": "needs-you",
-      "note": "Store prep"
+      "note": "Store prep",
+      "next": "Gerno installs build 13 (v1.0.0) from TestFlight and runs the on-device checklist; approve the website Vercel deploy; then enter the docs/SUBMISSION.md dossi…"
     },
     {
       "slug": "renewwise",
       "name": "RenewWise",
       "cat": "Renewal tracker",
-      "stage": 7,
+      "stage": 8,
       "status": "needs-you",
-      "note": "TestFlight"
+      "note": "Store prep",
+      "next": "CURRENT STAGE: Stage 8 — SUBMITTED TO APPLE. RenewWise 1.0.0 (build 6) is WAITING_FOR_REVIEW as of 2026-07-15 04:09 UTC (review submission 2318da8e). All 3 I…"
     },
     {
       "slug": "quotient",
       "name": "Quotient",
       "cat": "Financial calculator",
-      "stage": 5,
+      "stage": 9,
       "status": "on-track",
-      "note": "Final build",
-      "interventions": 3
+      "note": "Expansion",
+      "interventions": 8,
+      "next": "CURRENT STAGE: ✅ SUBMITTED — WAITING_FOR_REVIEW (2026-07-15 23:02 UTC). Quotient 1.0 build 1.0.0(4) (universal iPhone + iPad) submitted to Apple, incl. the f…"
     },
     {
       "slug": "countup",
@@ -49,7 +52,8 @@
       "stage": 7,
       "status": "needs-you",
       "note": "TestFlight",
-      "interventions": 2
+      "interventions": 2,
+      "next": "CURRENT STAGE: Stage 7 — TESTFLIGHT"
     }
   ]
 }
