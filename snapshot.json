@@ -1,5 +1,48 @@
 {
-  "generatedAt": "2026-07-15",
+  "generatedAt": "2026-07-17",
+  "portfolio": {
+    "apps_total": 8,
+    "needs_you": 4,
+    "shipped": 5,
+    "ci_used_min": 335,
+    "ci_cap_min": 300,
+    "builds_total": 7,
+    "loc_total": 3226,
+    "tests_total": 78,
+    "interventions_total": 37,
+    "byStage": [
+      {
+        "stage": 1,
+        "name": "Research",
+        "avg_min": 51,
+        "samples": 3
+      },
+      {
+        "stage": 2,
+        "name": "Planning",
+        "avg_min": 44,
+        "samples": 3
+      },
+      {
+        "stage": 3,
+        "name": "Foundation",
+        "avg_min": 55,
+        "samples": 2
+      },
+      {
+        "stage": 4,
+        "name": "Design",
+        "avg_min": 18,
+        "samples": 2
+      },
+      {
+        "stage": 5,
+        "name": "Final build",
+        "avg_min": 65,
+        "samples": 1
+      }
+    ]
+  },
   "apps": [
     {
       "slug": "easystreak",
@@ -26,8 +69,75 @@
       "stage": 9,
       "status": "on-track",
       "note": "Expansion",
+      "next": "CURRENT STAGE: ✅ SUBMITTED — WAITING_FOR_REVIEW (2026-07-15 23:02 UTC). Quotient 1.0 build 1.0.0(4) (universal iPhone + iPad) submitted to Apple, incl. the f…",
+      "interventions": 9,
+      "codebase": {
+        "loc": 2946,
+        "screens": 6,
+        "components": 24,
+        "interactive": 43,
+        "tests": 66,
+        "acs": 15
+      },
+      "stageNotes": {
+        "1": "RESEARCH.md complete: benchmark table, review-mining, monetization corridor, prioritized f",
+        "2": "PRODUCT_SPEC.md + BRAND.md complete. Brand Quotient; one-time Pro $11.99; full matrix mapp",
+        "3": "Foundation complete. Signed 27.2MB .ipa produced via build_signed (run 29319711529) — Appl",
+        "4": "docs/DESIGN.md + design/ rendered screens (light+dark, all V1 + states) + icon suite; sync",
+        "5": "Full app implemented per DESIGN.md; two adversarial reviews (correctness + App Store) — 16"
+      },
+      "stageMin": {
+        "1": 5,
+        "2": 6,
+        "4": 20,
+        "5": 65
+      },
+      "active": "1.7d"
+    },
+    {
+      "slug": "cinder",
+      "name": "Cinder",
+      "cat": "Keto tracker",
+      "stage": 7,
+      "status": "needs-you",
+      "note": "TestFlight",
+      "next": "CURRENT STAGE: Stage 7 — TestFlight ✅ build 1.0.0(1) uploaded & Processing (Stage 5 feature-build continues in parallel)",
+      "interventions": 16,
+      "lastGate": "PASS",
+      "stageNotes": {
+        "1": "gate-1 PASS. Deliverables: docs/RESEARCH.md (competitor table, review mining, monetization",
+        "2": "gate-2 PASS. Deliverables: PRODUCT_SPEC.md (APP_STANDARD matrix mapped V1/V2/N-A; pricing ",
+        "3": "Stage 3 functionally complete: walking skeleton + working parser/log-loop; CI green in clo",
+        "4": "gate-4 PASS. Real ember icon suite (gen-icons.mjs, 1024 no-alpha verified, viewed) + docs/",
+        "7": "TestFlight: app record 6791042926; beta run 29390182777 SUCCESS -> build 1.0.0(1) uploaded"
+      },
+      "stageMin": {
+        "1": 22,
+        "2": 11,
+        "3": 79,
+        "4": 15
+      },
+      "active": "19.0h"
+    },
+    {
+      "slug": "scout",
+      "name": "SCOUT",
+      "cat": "Radio recon (SDR)",
+      "stage": 3,
+      "status": "on-track",
+      "note": "Foundation",
+      "next": "CURRENT STAGE: Stage 3 — Foundation Build (just entered; repo created + planning committed)",
       "interventions": 8,
-      "next": "CURRENT STAGE: ✅ SUBMITTED — WAITING_FOR_REVIEW (2026-07-15 23:02 UTC). Quotient 1.0 build 1.0.0(4) (universal iPhone + iPad) submitted to Apple, incl. the f…"
+      "lastGate": "PASS",
+      "stageNotes": {
+        "1": "Stage 1 gate-1 PASS; ship/kill resolved SHIP",
+        "2": "gate-2 PASS; 29 ACs; spec adversarially FAILed then fixed to PASS; name locked; repo creat"
+      },
+      "stageMin": {
+        "1": 126,
+        "2": 114
+      },
+      "active": "4.1h"
     },
     {
       "slug": "countup",
@@ -52,8 +162,28 @@
       "stage": 7,
       "status": "needs-you",
       "note": "TestFlight",
-      "interventions": 2,
-      "next": "CURRENT STAGE: Stage 7 — TESTFLIGHT"
+      "next": "CURRENT STAGE: Stage 7 — TESTFLIGHT",
+      "interventions": 4,
+      "builds": 7,
+      "ci_min": 335,
+      "codebase": {
+        "loc": 280,
+        "screens": 1,
+        "components": 5,
+        "interactive": 4,
+        "tests": 12,
+        "acs": 6
+      },
+      "stageNotes": {
+        "3": "build_signed SUCCESS (run 29325559209); App ID auto-registered via cloud signing; tsc+expo",
+        "4": "design pass done in Claude Design (Summa Factory Console project) before build",
+        "6": "remediated to standard: SPEC AC-01..06, 12 tests, eslint+jest, docs; gates 2/3/5/6/7 all-a",
+        "7": "build 4 uploaded to TestFlight (run 29371990307) — shipped build now == tested code"
+      },
+      "stageMin": {
+        "3": 30
+      },
+      "active": "2.1d"
     }
   ]
 }
