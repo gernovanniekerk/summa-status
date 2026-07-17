@@ -4,9 +4,9 @@
     "apps_total": 8,
     "needs_you": 4,
     "shipped": 5,
-    "ci_used_min": 335,
+    "ci_used_min": 4270,
     "ci_cap_min": 300,
-    "builds_total": 7,
+    "builds_total": 10,
     "loc_total": 3226,
     "tests_total": 78,
     "interventions_total": 37,
@@ -60,7 +60,8 @@
       "stage": 8,
       "status": "needs-you",
       "note": "Store prep",
-      "next": "CURRENT STAGE: Stage 8 — SUBMITTED TO APPLE. RenewWise 1.0.0 (build 6) is WAITING_FOR_REVIEW as of 2026-07-15 04:09 UTC (review submission 2318da8e). All 3 I…"
+      "next": "CURRENT STAGE: Stage 8 — SUBMITTED TO APPLE. RenewWise 1.0.0 (build 6) is WAITING_FOR_REVIEW as of 2026-07-15 04:09 UTC (review submission 2318da8e). All 3 I…",
+      "ci_min": 1148
     },
     {
       "slug": "quotient",
@@ -71,6 +72,7 @@
       "note": "Expansion",
       "next": "CURRENT STAGE: ✅ SUBMITTED — WAITING_FOR_REVIEW (2026-07-15 23:02 UTC). Quotient 1.0 build 1.0.0(4) (universal iPhone + iPad) submitted to Apple, incl. the f…",
       "interventions": 9,
+      "ci_min": 693,
       "codebase": {
         "loc": 2946,
         "screens": 6,
@@ -104,6 +106,7 @@
       "next": "CURRENT STAGE: Stage 7 — TestFlight ✅ build 1.0.0(1) uploaded & Processing (Stage 5 feature-build continues in parallel)",
       "interventions": 16,
       "lastGate": "PASS",
+      "ci_min": 743,
       "stageNotes": {
         "1": "gate-1 PASS. Deliverables: docs/RESEARCH.md (competitor table, review mining, monetization",
         "2": "gate-2 PASS. Deliverables: PRODUCT_SPEC.md (APP_STANDARD matrix mapped V1/V2/N-A; pricing ",
@@ -164,8 +167,8 @@
       "note": "TestFlight",
       "next": "CURRENT STAGE: Stage 7 — TESTFLIGHT",
       "interventions": 4,
-      "builds": 7,
-      "ci_min": 335,
+      "builds": 10,
+      "ci_min": 494,
       "codebase": {
         "loc": 280,
         "screens": 1,
@@ -183,7 +186,7 @@
       "stageMin": {
         "3": 30
       },
-      "active": "2.1d"
+      "active": "3.5d"
     }
   ]
 }
